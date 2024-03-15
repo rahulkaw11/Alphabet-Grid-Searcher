@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item>
+        <shape android:shape="rectangle">
+        <solid android:color="#2196f3"/>
+        </shape>
+    </item>
+
+
+    <item
+        android:height="50dp"
+        android:width="50dp"
+        android:gravity="center">
+
+        <!-- place icon drawable here-->
+        <bitmap
+            android:src="@drawable/grid_icon"
+            android:gravity="fill"
+            android:tint="#ffffff"/>
+    </item>
+
+    <item android:width="220dp" android:height="110dp" android:gravity="bottom|center_horizontal" android:top="180dp">
+        <!-- place name text drawable here-->
+        <bitmap android:alpha="1" android:src="@drawable/app_name_text" android:gravity="fill|center" android:tint="#ffffff"/>
+    </item>
+
+</layer-list>
